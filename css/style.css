@@ -1,0 +1,379 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 969px;
+  width: 1920px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  gap: 100px;
+  overflow: hidden;
+}
+
+.container section :nth-child(1) {
+  position: absolute;
+  height: 42%;
+  width: 44%;
+  background: url("../images/city-building-houses-with-shops-cafe-hotel-bankvector-illustration-flat-style-background_273525-1122.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom-right-radius: 15px;
+}
+
+.container section :nth-child(2) {
+  height: 42%;
+  width: 44%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 0px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom-left-radius: 15px;
+  background: url("../images/360_F_478984862_IJWzRfgxpy5233mDVORHLhfZfoVUYOpE.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container section :nth-child(3) {
+  height: 42%;
+  width: 44%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 0;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-top-right-radius: 15px;
+  background: url("../images/blank-green-meadow-nature-landscape-scene_1308-49458.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container section :nth-child(4) {
+  position: absolute;
+  height: 42%;
+  width: 44%;
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  right: 0;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-top-left-radius: 15px;
+  background: url("../images/84c35db1758e800aa1cfdc7b96c3e999.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center {
+  height: 100%;
+  width: 5px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.center1 {
+  height: 5px;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.traffic {
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+}
+
+.container .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 5;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+}
+
+.container .image img {
+  position: absolute;
+  height: 56px;
+  width: 190px;
+  margin-top: 28px;
+  animation: car1 2s linear infinite normal;
+}
+
+.container .image2 {
+  position: absolute;
+  top: 0;
+  left: 1540px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+}
+
+.container .image2 img {
+  height: 109px;
+  width: 206px;
+  transform: rotate(6deg);
+  margin-top: -75px;
+  animation: car4 2s linear infinite normal;
+}
+
+.container .image3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  margin-bottom: -80px;
+}
+
+.container .image3 img {
+  height: 179px;
+  width: 123px;
+  animation: car2 3s linear infinite normal;
+}
+
+.container .image4 {
+  position: absolute;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  bottom: 140px;
+  left: 835px;
+  animation: car3 3s linear infinite normal;
+}
+
+.container .image4 img {
+  height: 179px;
+  width: 123px;
+  transform: rotate(180deg);
+}
+
+@keyframes car1 {
+  0% {
+    margin-left: 0px;
+  }
+
+  25% {
+    margin-left: 480px;
+  }
+  50% {
+    margin-left: 960px;
+  }
+  75% {
+    margin-left: 1440px;
+  }
+  100% {
+    margin-left: 1920px;
+  }
+}
+
+@keyframes car2 {
+  0% {
+    margin-top: 0px;
+  }
+
+  25% {
+    margin-top: 235.25px;
+  }
+  50% {
+    margin-top: 235px;
+  }
+  65% {
+    margin-top: 235px;
+  }
+  75% {
+    margin-top: 726.75px;
+  }
+  100% {
+    margin-top: 969px;
+  }
+}
+
+@keyframes car3 {
+  0% {
+    margin-bottom: 0px;
+  }
+
+  25% {
+    margin-bottom: 235.25px;
+  }
+
+  65% {
+    margin-bottom: 235px;
+  }
+  75% {
+    margin-bottom: 726.75px;
+  }
+  100% {
+    margin-bottom: 969px;
+  }
+}
+
+@keyframes car4 {
+  0% {
+    margin-right: 0px;
+  }
+
+  25% {
+    margin-right: -480px;
+  }
+  50% {
+    margin-right: -960px;
+  }
+  75% {
+    margin-left: -1440px;
+  }
+  100% {
+    margin-left: -1920px;
+  }
+}
+
+.rapper {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 18px;
+}
+
+.green {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  animation: lights 3s linear infinite normal;
+}
+
+.red {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.traffic {
+  width: 60px;
+  height: 74px;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  margin-right: 1078px;
+  margin-top: 330px;
+  border-radius: 5px;
+}
+
+.traffic1 {
+  width: 60px;
+  height: 74px;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  right: -292px;
+  top: -239px;
+  border-radius: 5px;
+}
+
+.traffic2 {
+  width: 60px;
+  height: 74px;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  right: -291px;
+  top: 239px;
+  border-radius: 5px;
+  transform: rotate(180deg);
+}
+
+.traffic3 {
+  width: 60px;
+  height: 74px;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  top: 230px;
+  margin-right: 1079px;
+  border-radius: 5px;
+  transform: rotate(180deg);
+}
+
+@keyframes lights {
+  0% {
+    background-color: yellow;
+  }
+
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: red;
+  }
+  65% {
+    background-color: red;
+  }
+  75% {
+  }
+  100% {
+  }
+}
